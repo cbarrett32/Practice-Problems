@@ -8,7 +8,7 @@ public class TreeMain {
 		TreeNode answer = minTree(sArray);
 		traversal(answer, 0);
 	}
-	
+	 
 	public static TreeNode minTree (int[] sArray) {
 		int medianLocation = sArray.length/2;
 		int	medianValue = sArray[medianLocation];
